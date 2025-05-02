@@ -901,6 +901,8 @@ section,
   font-weight: 600;
   color: var(--heading-color);
   width: 100%;
+}
+.email{
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
@@ -1269,6 +1271,12 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 30%);
   margin: 0;
   line-height: 1.6;
+  min-height: 73px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
 }
 
 @media (max-width: 768px) {
